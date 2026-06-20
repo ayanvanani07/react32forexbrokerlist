@@ -1,0 +1,11 @@
+.blue-blure-shade::before {
+  content: "";
+  opacity: 0.9;
+  filter: blur(106.1px);
+  background-color: #a8dd15;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

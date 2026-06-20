@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-geist: "Geist", sans-serif;
+
+  --breakpoint-laptop: 1024px;
+  --breakpoint-tab: 768px;
+  --breakpoint-mobile: 576px;
+}
+
+.font-geist,
+* {
+  font-family: var(--font-geist);
+}
+
+:root {
+  --color-black100: #1a1a1a;
+  --color-black200: #020817;
+  --color-black700: #1a1a1ab3;
+  --color-black800: #1a1a1acc;
+  --color-white700: #ffffffb3;
+  --color-white500: #ffffff80;
+  --color-white800: #fffc;
+  --color-grey-600: #686868;
+  --color-border-light300: #d3d3d3;
+  --color-border-light800: #1a1a1a14;
+  --color-border-gray800: #00000014;
+}
+
+.border-gray800 {
+  border-color: var(--color-border-gray800);
+}
+
+.border-light300 {
+  border-color: var(--color-border-light300);
+}
+
+.border-light800 {
+  border-color: var(--color-border-light800);
+}
+
+.text-black100 {
+  color: var(--color-black100);
+}
+
+.bg-black100 {
+  background-color: var(--color-black100);
+}
+.bg-black200 {
+  background: var(--color-black200);
+}
+.bg-black700 {
+  background: var(--color-black700);
+}
+.bg-black800 {
+  background: var(--color-black800);
+}
+
+.text-black200 {
+  color: var(--color-black200);
+}
+.text-black700 {
+  color: var(--color-black700);
+}
+.text-black800 {
+  color: var(--color-black800);
+}
+.text-white700 {
+  color: var(--color-white700);
+}
+
+.text-white500 {
+  color: var(--color-white500);
+}
+
+.text-white800 {
+  color: var(--color-white800);
+}
+
+.text-grey600 {
+  color: var(--color-grey-600);
+}
