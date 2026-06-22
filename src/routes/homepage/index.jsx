@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <div className="overflow-x-hidden bg-[#F0F2EC]">
       <HeroSection />
-      {/* <MarqueeAnimation /> */}
+      <MarqueeAnimation />
       <TopRatedForex />
       <PremiumForex />
       <LearnForex />
